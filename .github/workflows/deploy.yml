@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip
       
       - name: execute script
-        run:  app.py
+        run:  python app.py
 
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4
